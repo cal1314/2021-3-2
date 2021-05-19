@@ -1,4 +1,8 @@
 <?php
+
+/**
+ * Class A 延迟静态绑定
+ */
 class A {
     public static function who(){
         echo __CLASS__;
@@ -10,7 +14,6 @@ class A {
         static::who();
     }
 }
-
 class B extends A {
     public static function who(){
         echo __CLASS__;
