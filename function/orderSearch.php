@@ -125,7 +125,6 @@ function getpao($arr)
 /**
  * 快速排序原理：
  */
-public
 function quickSort($arr)
 {
     //判
